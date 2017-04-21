@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: red;
+    background-color: white;
     width:100%;
     height: 20vh;
     position:absolute;
@@ -27,7 +27,7 @@ h1{
 }
 
 nav{
-    background-color: green;
+    background-color: white;
     display: inline-block;
     margin-top: 20vh;
 }
@@ -52,8 +52,8 @@ li a{
     padding-right: 1vw;
 }
 
-#video{
-    background-color: yellow;
+.video{
+    background-color: white;
     width: 100%;
     height: 100%;
 }
@@ -73,14 +73,14 @@ iframe{
 #art-left{
     width: 50%;
     height: 70vh;
-    background-color: blue;
+    background-color: white;
     display: inline-block;
 }
 
 #art-right{
     width: 50%;
     height: 70vh;
-    background-color: orange;
+    background-color: white;
     display: inline-block;
 }
 
@@ -129,7 +129,7 @@ iframe{
 }
 
 .person{
-    background-color: red;
+    background-color: white;
     height: 10vh;
     width: 24vw;
     margin-left:22.5vw;
@@ -138,7 +138,7 @@ iframe{
 }
 
 .credit{
-    background-color: red;
+    background-color: white;
     height: 14vh;
     width: 24vw;
     margin-left:22.5vw;
@@ -169,7 +169,7 @@ iframe{
 #photo{
     height:700px;
     width:100%;
-    background-color: pink;
+    background-color: white;
 }
 
 #photo img{
@@ -181,7 +181,7 @@ iframe{
 #div2{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: white;
     height:480px;
     width:100%;
 }
@@ -189,13 +189,13 @@ iframe{
 .pres{
     width:50%;
     height:100%;
-    background-color: yellow;
+    background-color: white;
     display: inline-block;
 }
 
 #photo3{
-    background-color: brown;
-    height: 84vh;
+    background-color: white;
+    height: 82vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -212,12 +212,12 @@ iframe{
     color: black;
     font-variant: small-caps;
     margin-left: 3vw;
-    margin-top: 0vh;
+    margin-top: 1vh;
     color: black;
 }
 
 #photo2{
-    background-color: brown;
+    background-color: white;
     height: 66vh;
     width: 100%;
     display: flex;
@@ -230,12 +230,80 @@ iframe{
 }
 
 #links{
-   background-color:aqua;
-    height: 66vh;
+   background-color:white;
+    height: 25vh;
     width: 100%;
+    margin-bottom: 3vh;
 }
 
 .source{
     color:green;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-left:3vw;
+}
+
+.type{
+    margin-top:4vh;
+    margin-bottom: 4vh;
+}
+.type p{
+    color:midnightblue;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left:2.5vw;
+}
+
+hr{
+    width:95%;
+    color: gray;
+    opacity: 50%;
+}
+
+.grid{
+    height: 55vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.gridart{
+    width:25%;
+    margin:0 10px 0 10px;
+}
+
+.gridart > img{
+    width:100%;
+}
+
+.gridname{
+    font-family:'Lato', Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:midnightblue;
+}
+
+.gridsubtitle{
+    font-family:'Lato', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color:midnightblue;
+    font-variant: small-caps;
+    margin-top:-1%;
+}
+
+.gridtxt{
+    font-family:'Lato', Helvetica, sans-serif;
+    font-size: 12px;
+    color:midnightblue;
+    margin-top:-1%;
+}
+
+footer{
+    height:5vh;
+    width:100%;
 }
