@@ -224,6 +224,26 @@
                 of 2015 . 15 Million views and counting!</p>
         </article>
     </section>
+    <section id="formulaire">
+        <h2>Contact Us</h2>
+        <p>Any suggestion ? Contact us !</p>
+        <form method="GET" action="fiche.php">
+            <label for="name">Nom</label><input type="input" name="nom" placeholder="Nom" id="nom" />
+            <label for="firstname">Prénom</label><input type="input" name="prenom" placeholder="Prénom" id="prenom" />
+            <label for="avis">Avez-vous aimé l'article?</label>
+            <aside class="test">
+                <label for="oui">Oui</label>
+                <input type="radio" name="rep" value="Oui" />
+            </aside>
+            <aside class="test">
+                <label for="non">Non</label>
+                <input type="radio" name="rep" value="Non" />
+            </aside>
+            <label for="message">Message</label><textarea name="message" rows=10 cols="50"></textarea>
+            <input class="button" type="submit" value="OK" />
+            <input class="button" type="reset" value="Je recommence" />
+        </form>
+    </section>
     <footer>
     </footer>
 </body>
