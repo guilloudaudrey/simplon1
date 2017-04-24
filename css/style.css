@@ -54,21 +54,43 @@ header{
     background-color: black;
 }
 
-.div1:hover{
-    background-color: red;
-}
-
-.div2:hover{
-    background-color: green;
-}
-
-.div3:hover{
-    background-color: blue;
-}
-
- .menu {
+.menu {
     margin-left: 1.5vw;
  }
+
+ .menubleu>ul>li{
+     font-family: 'Lato', Helvetica, sans-serif;
+     display: block;
+     font-weight: bold;
+     color:white;
+     font-variant: small-caps;
+     font-size: 2.2em;
+     margin-bottom: 0.2em;
+ }
+
+ .menubleu{
+     width:50vw;
+     height: 100vh;
+     background-color: #273777;
+     z-index: 1;
+     /*display: none;*/
+     position:absolute;
+     right:0;
+     padding:8vh 0 0 4vw;
+ }
+
+ h4{
+     font-family: 'Lato', Helvetica, sans-serif;
+     font-size: 0.6em;
+     color:white;
+     font-variant: small-caps;
+     margin-top:6vh;
+ }
+
+ .menu:hover>.menubleu{
+     display: block;
+ }
+
 .menu p{
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 0.6em;
@@ -380,7 +402,7 @@ footer{
 }
 
 #formulaire{
-    height: 110vh;
+    height: 120vh;
     width:92%;
     background-color:white;
     display: flex;

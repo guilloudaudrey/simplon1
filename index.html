@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HALAL - Prince</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
@@ -40,6 +42,21 @@
                 <p>search</p>
             </div>
             <div class="menu">
+                <div class="menubleu">
+                    <ul>
+                        <li>fresh</li>
+                        <li>commercials</li>
+                        <li>photography</li>
+                        <li>documentaires</li>
+                        <li>fiction</li>
+                        <li>shop</li>
+                        <li>about halal</li>
+                        <h4>call us</h4>
+                        <li>+3120 6391402</li>
+                        <h4>connect us</h4>
+                        <i class="fa fa-camera-retro fa-2x"></i>
+                    </ul>
+                </div>
                 <div class="div1"></div>
                 <div class="div2"></div>
                 <div class="div3"></div>
@@ -239,18 +256,20 @@
     <section id="formulaire">
         <h2>Contact Us</h2>
         <p>Any suggestion ? Contact us !</p>
+        <!--Il faut plutôt mettre du POST-->
         <form method="GET" action="fiche.php">
             <label for="name">Nom</label><input type="input" name="nom" placeholder="Ex:Dupond" id="name" />
             <label for="firstname">Prénom</label><input type="input" name="prenom" placeholder="Ex:Paul" id="firstname" />
-            <label for="age">Age</label><input type="date" name="age" min="0" id="age" />
+            <label for="age">Age</label><input type="number" name="age" min="0" id="age" />
             <label for="region">Région</label>
-            <select>
+            <select name="region" id="region">
                 <option value"nord">Nord</option>
                 <option value"sud">Sud</option>
                 <option value"est">Est</option>
                 <option value"ouest">Ouest</option>
             </select>
             <label for="mail">Email</label><input type="mail" name="mail" placeholder="name@exemple.com" />
+            <label for="mdp">Mot de passe</label><input type="password" name="mdp" id="mdp" />
             <label for="rep">Avez-vous aimé l'article?</label>
             <aside class="test">
                 <label for="oui">Oui</label>
