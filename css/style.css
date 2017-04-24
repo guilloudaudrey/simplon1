@@ -380,7 +380,7 @@ footer{
 }
 
 #formulaire{
-    height: 80vh;
+    height: 110vh;
     width:92%;
     background-color:white;
     display: flex;
@@ -438,4 +438,11 @@ input{
     border-radius: 5px;
     color:white;
     margin-left: 2vw;
+}
+
+select{
+    background-color: white;
+    height: 4vh;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
