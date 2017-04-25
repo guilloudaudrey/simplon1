@@ -37,41 +37,49 @@
 <body>
     <header>
         <img id="logo" src="img/logo.png" alt="logo halal" title="Logo Halal Company" />
-        <aside class="icone">
+        <section class="icone">
             <div class="search">
                 <p>search</p>
             </div>
             <div class="menu">
-                <div class="menubleu">
+                <nav class="menubleu">
                     <ul>
-                        <li>fresh</li>
-                        <li>commercials</li>
-                        <li>photography</li>
-                        <li>documentaires</li>
-                        <li>fiction</li>
-                        <li>shop</li>
-                        <li>about halal</li>
-                        <h4>call us</h4>
-                        <li>+3120 6391402</li>
-                        <h4>connect us</h4>
-                        <i class="fa fa-facebook fa-2x"></i>
-                        <i class="fa fa-instagram fa-2x"></i>
-                        <i class="fa fa-vine fa-2x"></i>
-                        <i class="fa fa-pinterest fa-2x"></i>
-                        <i class="fa fa-linkedin fa-2x"></i>
-                        <h4>newsletter</h4>
+                        <li class="listmenu">fresh</li>
+                        <li class="listmenu">commercials</li>
+                        <li class="listmenu">photography</li>
+                        <li class="listmenu">documentaires</li>
+                        <li class="listmenu">fiction</li>
+                        <li class="listmenu">shop</li>
+                        <li class="listmenu">about halal</li>
+                        <li>
+                            <h4 class="menuh">call us</h4>
+                            <li>
+                                <li class="listmenu">+3120 6391402</li>
+                                <li>
+                                    <h4 class="menuh">connect us</h4>
+                                </li>
+                                <li><i class="fa fa-facebook fa-2x"></i>
+                                    <i class="fa fa-instagram fa-2x"></i>
+                                    <i class="fa fa-vine fa-2x"></i>
+                                    <i class="fa fa-pinterest fa-2x"></i>
+                                    <i class="fa fa-linkedin fa-2x"></i></li>
+                                <li class="listmenu"></li>
+                                <h4 class="menuh">newsletter</h4>
                     </ul>
                     <form id="formmenu" method="GET" action="fiche.php">
-                        <label for="mail"></label><input id="mailmenu" type="mail" name="mail" placeholder="Email address" />
+                        <label for="mail"></label><input id="mailmenu" type="mail" name="mail" placeholder="Email address"
+                        />
                         <input class="button2" type="submit" value="Sign Up" />
                     </form>
+                </nav>
+                <div class="icomenu">
+                    <div class="div1"></div>
+                    <div class="div2"></div>
+                    <div class="div3"></div>
+                    <p>menu</p>
                 </div>
-                <div class="div1"></div>
-                <div class="div2"></div>
-                <div class="div3"></div>
-                <p>menu</p>
             </div>
-        </aside>
+        </section>
     </header>
     <nav>
         <ul>
@@ -101,27 +109,27 @@
                     and the neighborhood crown, he has little to show for his aspirations until he meets Lamborghini-driving
                     Kalpa, local kingpin and alleged sociopath, who turns Ayoub into the talk of the town.</p>
             </article>
-            <article id="art-right">
-                <aside class="person">
+            <aside id="art-right">
+                <section class="person">
                     <img id="sam" src="img/samdejong.jpg" alt="sam de jong" title="director" />
                     <p class="name">Sam de Jong</p>
                     <p class="sous-titre-2">director</p>
-                </aside>
-                <aside class="credit">
+                </section>
+                <section class="credit">
                     <p class="sous-titre-3">CREDITS</p>
                     <p class="sous-titre-4">starring</p>
                     <p class="sous-titre-5">Ayoub Elasri, Sigrid ten Napel, Jorik Scholten, Freddy Tratlehner, Elsie de Brauw</p>
                     <div class="more">more</div>
-                </aside>
-            </article>
+                </section>
+            </aside>
         </div>
     </section>
 
     <section id="photo">
-        <img src="img/prins.jpg" />
+        <img src="img/prins.jpg" alt="prins" title="prins" />
     </section>
     <div id="div2">
-        <aside class="pres">
+        <article class="pres">
             <p class="main-txt">PRINCE was hailed by critics’ following its debut at the 2015 Berlinale’s Generation 14Plus section. Screen International
                 praised, “Its stylistic brio makes PRINCE a live wire!” while The Hollywood Reporter raved that the film
                 is “distinguished by its light tone and idiosyncratic handle on genre conventions,” and that it has a “quirky
@@ -138,8 +146,9 @@
                 from where I grew up – in a very specific social environment. For the project to cross borders and travel
                 the world is a dream come true. I hope U.S audiences learn something about urban Dutch life and struggles
                 and additionally discover that we are all struggling with the same issues in the western world.”</p>
-        </aside>
+        </article>
     </div>
+
     <section id="photo3">
         <img src="img/photo1.jpg" alt="">
         <img src="img/photo2.jpg" alt="">
@@ -280,14 +289,14 @@
             <label for="mail">Email</label><input type="mail" name="mail" placeholder="name@exemple.com" />
             <label for="mdp">Mot de passe</label><input type="password" name="mdp" id="mdp" />
             <label for="rep">Avez-vous aimé l'article?</label>
-            <aside class="test">
+            <div class="test">
                 <label for="oui">Oui</label>
                 <input type="radio" name="rep" value="Oui" />
-            </aside>
-            <aside class="test">
+            </div>
+            <div class="test">
                 <label for="non">Non</label>
                 <input type="radio" name="rep" value="Non" />
-            </aside>
+            </div>
             <label for="message">Message</label><textarea name="message" rows=10 cols="50" id="message"></textarea>
             <input class="button" type="submit" value="OK" />
             <input class="button" type="reset" value="Je recommence" />
