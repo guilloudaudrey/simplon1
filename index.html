@@ -44,25 +44,25 @@
             <div class="menu">
                 <nav class="menubleu">
                     <ul>
-                        <li class="listmenu">fresh</li>
-                        <li class="listmenu">commercials</li>
-                        <li class="listmenu">photography</li>
-                        <li class="listmenu">documentaires</li>
-                        <li class="listmenu">fiction</li>
-                        <li class="listmenu">shop</li>
-                        <li class="listmenu">about halal</li>
+                        <li class="listmenu"><a href="#">fresh</a></li>
+                        <li class="listmenu"><a href="#">commercials</a></li>
+                        <li class="listmenu"><a href="#">photography</a></li>
+                        <li class="listmenu"><a href="#">documentaires</a></li>
+                        <li class="listmenu"><a href="#">fiction</a></li>
+                        <li class="listmenu"><a href="#">shop</a></li>
+                        <li class="listmenu"><a href="#">about halal</a></li>
                         <li>
                             <h4 class="menuh">call us</h4>
                             <li>
-                                <li class="listmenu">+3120 6391402</li>
+                                <li class="listmenu"><a href="0031206391402">+3120 6391402</a></li>
                                 <li>
                                     <h4 class="menuh">connect us</h4>
                                 </li>
-                                <li><i class="fa fa-facebook fa-2x"></i>
-                                    <i class="fa fa-instagram fa-2x"></i>
-                                    <i class="fa fa-vine fa-2x"></i>
-                                    <i class="fa fa-pinterest fa-2x"></i>
-                                    <i class="fa fa-linkedin fa-2x"></i></li>
+                                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                    <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                                    <a href="#"><i class="fa fa-vine fa-2x"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
                                 <li><h4 class="menuh">newsletter</h4></li>
                     </ul>
                     <form id="formmenu" method="GET" action="fiche.php">
@@ -273,7 +273,7 @@
         <p>Any suggestion ? Contact us !</p>
         <!--Il faut plutôt mettre du POST-->
         <form id="formul" method="GET" action="fiche.php">
-            <label for="nom">Nom</label><input type="text" name="nom" placeholder="Ex:Dupond" id="name" />
+            <label for="nom">Nom</label><input type="text" name="nom" placeholder="Ex:Martin" id="name" />
             <label for="prenom">Prénom</label><input type="text" name="prenom" placeholder="Ex:Paul" id="firstname" />
             <label for="age">Age</label><input type="number" name="age" min="0" id="age" />
             <label for="region">Région</label>
@@ -291,8 +291,8 @@
                 <input type="radio" name="rep" value="Oui" />
             </div>
             <div class="test">
-                <label for="non">Non</label>
-                <input type="radio" name="rep" value="Non" />
+                <label for="input-non">Non</label>
+                <input id="input-non" type="radio" name="rep" value="Non" />
             </div>
             <label for="message">Message</label><textarea name="message" rows=10 cols="50" id="message"></textarea>
             <input class="button" type="submit" value="OK" />

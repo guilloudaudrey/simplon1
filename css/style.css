@@ -55,7 +55,7 @@ header{
     margin-left: 1.5vw;
  }
 
-.listmenu{
+.listmenu a{
      font-family: 'Lato', Helvetica, sans-serif;
      display: block;
      font-weight: bold;
@@ -63,6 +63,7 @@ header{
      font-variant: small-caps;
      font-size: 2.2em;
      margin-bottom: 0.2em;
+     text-decoration: none;
  }
 
  .menubleu{
