@@ -179,6 +179,7 @@ iframe{
     display: block;
     width: 92vw;
     height: 92vh;
+    border:0;
 }
 
 #div1{

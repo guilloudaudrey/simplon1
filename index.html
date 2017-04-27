@@ -91,7 +91,7 @@
         </ul>
     </nav>
     <section class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JgXbuIcGInA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JgXbuIcGInA" allowfullscreen></iframe>
     </section>
         <div id="div1">
             <article id="art-left">
@@ -165,7 +165,7 @@
         <p><a class="source" href="#">LA Times</a></p>
     </aside>
     <section class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0ACxyS47qtY" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0ACxyS47qtY" allowfullscreen></iframe>
     </section>
     <p class="comment">and here’s a nice interview with sam de jong on vice talks film</p>
     <aside class="type">
@@ -273,22 +273,22 @@
         <p>Any suggestion ? Contact us !</p>
         <!--Il faut plutôt mettre du POST-->
         <form id="formul" method="GET" action="fiche.php">
-            <label for="nom">Nom</label><input type="text" name="nom" placeholder="Ex:Martin" id="name" />
-            <label for="prenom">Prénom</label><input type="text" name="prenom" placeholder="Ex:Paul" id="firstname" />
+            <label for="nom">Nom</label><input type="text" name="nom" placeholder="Ex:Martin" id="nom" />
+            <label for="prenom">Prénom</label><input type="text" name="prenom" placeholder="Ex:Paul" id="prenom" />
             <label for="age">Age</label><input type="number" name="age" min="0" id="age" />
             <label for="region">Région</label>
             <select name="region" id="region">
-                <option value "nord">Nord</option>
-                <option value "sud">Sud</option>
-                <option value "est">Est</option>
-                <option value "ouest">Ouest</option>
+                <option value="nord">Nord</option>
+                <option value="sud">Sud</option>
+                <option value="est">Est</option>
+                <option value="ouest">Ouest</option>
             </select>
-            <label for="email">Email</label><input type="email" name="email" placeholder="name@exemple.com" />
+            <label for="email">Email</label><input type="email" name="email" placeholder="name@exemple.com" id="email"/>
             <label for="mdp">Mot de passe</label><input type="password" name="mdp" id="mdp" />
-            <label for="rep">Avez-vous aimé l'article?</label>
+            <label>Avez-vous aimé l'article?</label>
             <div class="test">
-                <label for="oui">Oui</label>
-                <input type="radio" name="rep" value="Oui" />
+                <label for="input-oui">Oui</label>
+                <input id="input-oui" type="radio" name="rep" value="Oui" />
             </div>
             <div class="test">
                 <label for="input-non">Non</label>
